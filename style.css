@@ -1,20 +1,19 @@
 /* Estilo global */
+
 body {
-  background-color: #f9f9f9;
+  background-color: #ee1919;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: #333;
   margin: 0;
   padding: 40px;
   max-width: 800px;
   margin-left: auto;
-  margin-right: auto;
-}
-
+  margin-right: auto;}
 /* Título */
 h1 {
   color: #1e90ff;
   font-size: 2.5em;
-  border-bottom: 2px solid #1e90ff;
+  border-bottom: 2px solid #d2ff1e;
   padding-bottom: 10px;
   margin-bottom: 20px;
 }
@@ -30,7 +29,7 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
   color: #777;
-  border-top: 1px solid #ccc;
+  border-top: 1px solid #4c00ff;
   padding-top: 10px;
   text-align: center;
 }
@@ -68,4 +67,19 @@ button {
 
 button:hover {
   background-color: #0066cc;
+}
+
+nav {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #1e90ff;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #005fa3;
 }
